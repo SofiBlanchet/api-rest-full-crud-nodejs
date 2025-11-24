@@ -1,18 +1,16 @@
 {
-  "name": "api-rest-full-nodejs",
+  "name": "api-rest-usuarios",
   "version": "1.0.0",
-  "description": "api rest full de users",
+  "description": "API REST CRUD de usuarios con Node, Express y PostgreSQL en Docker",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js",
     "start": "node server.js"
   },
-  "author": "@erneledesma",
-  "license": "MIT",
+  "keywords": [],
+  "author": "Sofia Blanchet",
+  "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
+    "express": "^4.19.2",
+    "pg": "^8.11.3"
   }
 }
